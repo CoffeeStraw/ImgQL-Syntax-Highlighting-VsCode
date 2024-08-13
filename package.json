@@ -1,0 +1,25 @@
+{
+  "name": "imgql-syntax-highlighting",
+  "displayName": "ImgQL Syntax Highlighting",
+  "description": "Syntax highlighting support for ImgQL (VoxLogicA)",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "imgql",
+      "aliases": ["ImgQL", "imgql"],
+      "extensions": ["imgql"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "imgql",
+      "scopeName": "source.imgql",
+      "path": "./syntaxes/imgql.tmLanguage.json"
+    }]
+  }
+}
