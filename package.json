@@ -2,6 +2,7 @@
   "name": "imgql-syntax-highlighting",
   "displayName": "ImgQL Syntax Highlighting",
   "description": "Syntax highlighting support for ImgQL (VoxLogicA)",
+  "icon": "imgs/logo.png",
   "version": "1.0.0",
   "publisher": "CoffeeStraw",
   "repository": {
@@ -9,7 +10,7 @@
     "url": "https://github.com/CoffeeStraw/ImgQL-Syntax-Highlighting-VsCode"
   },
   "engines": {
-    "vscode": "^1.92.0"
+    "vscode": "^1.50.0"
   },
   "categories": [
     "Programming Languages"
